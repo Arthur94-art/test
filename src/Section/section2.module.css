@@ -1,0 +1,331 @@
+.appContainer{
+	margin: auto;
+	height: 95%;
+	width: 95%;
+	margin-top: 25px;
+	display: flex;
+	justify-content: space-between;
+}
+.summaryContainer {
+	padding: 20px;
+	min-width: 220px;
+	min-height: 235px;
+	width: 100%;
+	height: 100%;
+	background-color: #f4f3ef;
+	font-family: Raleway serif;
+	margin: 10px;
+	text-align: center;
+}
+.quality{
+	font-weight: 400;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	background-color:#f4f3ef;
+	}
+.qualityStats{
+	padding-top: 30px;
+	width: 90%;
+	height: 100%;
+}
+.slider{
+	width: 100%;
+	color: #3a1c50;
+	font-weight: 400;
+	margin: 10px 0;
+}
+.sliderTitle{
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 1.6em;
+	line-height: 2.5rem;
+}
+.start{
+	left: 0;
+}
+.finish{
+	right: 0;
+}
+.sliderText{
+	text-transform: capitalize;
+	font-size: 0.8em;
+	bottom: 10px;
+	position: absolute;
+	
+}
+.sliderContainer{
+	position: relative;
+}
+.sliderInput{
+	width: 100%;
+	display: block;
+	margin: 0;
+	outline: none;
+	background: #d3d3d3;
+	opacity: 1;
+	transition: opacity .2s;
+	position: absolute;
+	border-radius: 30px;
+	height: 6px;
+
+}
+.sliderRangeValue{
+	position: absolute;
+	width: 80%;
+	height: 6px;
+	border-radius: 30px;
+	background: #3a1c50;
+	z-index: 100;
+	left: 20%;
+	right: 0;
+}
+.target{
+	position: absolute;
+	width: 30px;
+	height: 6px;
+	z-index: 100;
+	width: 6px;
+	border-radius: 50%;
+	padding: 7px;
+	margin-top: -7px;
+	background: #3a1c50;
+	left: 74%;
+}
+.sliderRangeValueBalance{
+	position: absolute;
+	height: 6px;
+	border-radius: 30px;
+	background: #3a1c50;
+	z-index: 100;
+	left: 30%;
+	right: 2.5%;
+}
+.targetBalance{
+	position: absolute;
+	width: 30px;
+	height: 6px;
+	z-index: 100;
+	width: 6px;
+	border-radius: 50%;
+	padding: 7px;
+	margin-top: -7px;
+	background: #3a1c50;
+	left: 64%;
+}
+.sliderRangeValueFinish{
+	position: absolute;
+	height: 6px;
+	border-radius: 30px;
+	background: #3a1c50;
+	z-index: 100;
+	left: 10%;
+	right: 1.25%;
+}
+.targetFinish{
+	position: absolute;
+	width: 30px;
+	height: 6px;
+	z-index: 100;
+	width: 6px;
+	border-radius: 50%;
+	padding: 7px;
+	margin-top: -7px;
+	background: #3a1c50;
+	left: 51%;
+}
+.sliderRangeValueIntensity{
+	position: absolute;
+	height: 6px;
+	border-radius: 30px;
+	background: #3a1c50;
+	z-index: 100;
+	left: 3.75%;
+	right: 13%;
+}
+.targetIntensity{
+	position: absolute;
+	width: 30px;
+	height: 6px;
+	z-index: 100;
+	width: 6px;
+	border-radius: 50%;
+	padding: 7px;
+	margin-top: -7px;
+	background: #3a1c50;
+	left: 53.7%;
+}
+.sliderRangeValueComplexity{
+	position: absolute;
+	height: 6px;
+	border-radius: 30px;
+	background: #3a1c50;
+	z-index: 100;
+	left: 10%;
+	right: 20%;
+}
+.targetComplexity{
+	position: absolute;
+	width: 30px;
+	height: 6px;
+	z-index: 100;
+	width: 6px;
+	border-radius: 50%;
+	padding: 7px;
+	margin-top: -7px;
+	background: #3a1c50;
+	left: 44.98%;
+}
+.sliderRangeValueTerroir{
+	position: absolute;
+	height: 6px;
+	border-radius: 30px;
+	background: #3a1c50;
+	z-index: 100;
+	left: 6.25%;
+	right: 3.75%;
+}
+.targetTerroir{
+	position: absolute;
+	width: 30px;
+	height: 6px;
+	z-index: 100;
+	width: 6px;
+	border-radius: 50%;
+	padding: 7px;
+	margin-top: -7px;
+	background: #3a1c50;
+	left: 45.36%;
+}
+.sliderRangeValueSweetness{
+	position: absolute;
+	height: 6px;
+	border-radius: 30px;
+	background: #3a1c50;
+	z-index: 100;
+	left: 28.57%;
+	right: 0%;
+}
+.targetSweetness{
+	position: absolute;
+	width: 30px;
+	height: 6px;
+	z-index: 100;
+	width: 6px;
+	border-radius: 50%;
+	padding: 7px;
+	margin-top: -7px;
+	background: #3a1c50;
+	left: 65.93%;
+}
+.sliderRangeValueAcidity{
+	position: absolute;
+	height: 6px;
+	border-radius: 30px;
+	background: #3a1c50;
+	z-index: 100;
+	left: 40%;
+	right: 0%;
+}
+.targetAcidity{
+	position: absolute;
+	width: 30px;
+	height: 6px;
+	z-index: 100;
+	width: 6px;
+	border-radius: 50%;
+	padding: 7px;
+	margin-top: -7px;
+	background: #3a1c50;
+	left: 75.38%;
+}
+.sliderRangeValueTannins{
+	position: absolute;
+	height: 6px;
+	border-radius: 30px;
+	background: #3a1c50;
+	z-index: 100;
+	left: 20%;
+	right: 0%;
+}
+.targetTannins{
+	position: absolute;
+	width: 30px;
+	height: 6px;
+	z-index: 100;
+	width: 6px;
+	border-radius: 50%;
+	padding: 7px;
+	margin-top: -7px;
+	background: #3a1c50;
+	left: 75.38%;
+}
+.sliderRangeValueAlcohol{
+	position: absolute;
+	height: 6px;
+	border-radius: 30px;
+	background: #3a1c50;
+	z-index: 100;
+	left: 33.33%;
+	right: 0%;
+}
+.targetAlcohol{
+	position: absolute;
+	width: 30px;
+	height: 6px;
+	z-index: 100;
+	width: 6px;
+	border-radius: 50%;
+	padding: 7px;
+	margin-top: -7px;
+	background: #3a1c50;
+	left: 74.35%;
+}
+.sliderRangeValueBody{
+	position: absolute;
+	height: 6px;
+	border-radius: 30px;
+	background: #3a1c50;
+	z-index: 100;
+	left: 40%;
+	right: 0%;
+}
+.targetBody{
+	position: absolute;
+	width: 30px;
+	height: 6px;
+	z-index: 100;
+	width: 6px;
+	border-radius: 50%;
+	padding: 7px;
+	margin-top: -7px;
+	background: #3a1c50;
+	left: 70.76%;
+}
+.h3{
+   text-transform: uppercase;
+   margin: 0;
+   padding-top: 30px;
+   color: #474745;
+}
+.bottom{
+	margin-bottom: 50px;
+}
+
+@media(max-width:900px){
+	.summaryContainer{
+		display: flex;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+}
+	.appContainer{
+		display: block;
+		width: 100%;
+		margin-right: 20px;
+		margin-left: 20px;
+}	 
+}
+
+

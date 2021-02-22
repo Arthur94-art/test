@@ -1,0 +1,45 @@
+*{
+	font-family: 'Raleway', sans-serif;
+}
+.footer{
+	margin: auto;
+	height: 95%;
+	width: 95%;
+	margin-top: 25px;
+	
+}
+.footerLine{
+	margin-top: 50px;
+}
+.footerLogo{
+	width: 25%;
+	margin-right: 10%;
+	margin-bottom: 20px;
+}
+.footerInfo>.footerText{
+	width: 50%;
+	font-size: 16px;
+}
+.footerText {
+	font-weight: 600;
+	display: inline-block;
+	position: absolute;
+	
+}
+a{
+	color: #000;
+}
+@media(max-width:900px){
+	.footerLogo,
+	.headerTitle,
+	.headerText p,.footerInfo>.footerText{	
+		display: block;
+		width: 100%;
+		margin-right: 20px;
+		margin-left: 0px;
+}
+.footerInfo>.footerText{
+	padding-bottom: 30px;
+}
+}
+
